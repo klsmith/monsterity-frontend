@@ -1,0 +1,127 @@
+@import "../../../shared/colors";
+
+.grid-container {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(32%, 1fr));
+  @media (max-width: 600px) {
+    grid-template-columns: repeat(auto-fit, minmax(50vw, 1fr));
+  }
+  >div {
+    background-color: $black;
+    border-radius: 8px;
+    padding: 16px;
+  }
+}
+
+/** COLOR PALLET SHOWCASE **/
+.pallet {
+  border: none;
+  background: transparent;
+  display: inline-flex;
+  flex-direction: row;
+  align-self: center;
+  flex-wrap: wrap;
+  gap: 1px;
+
+  div {
+    outline: 1px solid $white;
+    width: 32px;
+    height: 32px;
+  }
+
+  .black {
+    background: $black;
+  }
+
+  .dark {
+    background: $dark;
+  }
+
+  .white {
+    background: $white;
+  }
+
+  .gray {
+    background: $gray;
+  }
+
+  .blue_light {
+    background: $blue_light;
+  }
+
+  .blue_mid {
+    background: $blue_mid;
+  }
+
+  .blue_dark {
+    background: $blue_dark;
+  }
+
+  .green_dark {
+    background: $green_dark;
+  }
+
+  .green_light {
+    background: $green_light;
+  }
+
+  .yellow {
+    background: $yellow;
+  }
+
+  .orange {
+    background: $orange;
+  }
+
+  .peach {
+    background: $peach;
+  }
+
+  .brown {
+    background: $brown;
+  }
+
+  .purple_light {
+    background: $purple_light;
+  }
+
+  .purple_dark {
+    background: $purple_dark;
+  }
+
+  .red {
+    background: $red;
+  }
+}
+
+/** FONT SHOWCASE **/
+.font-showcase {
+  .kenny-blocks {
+    font-family: kenny-blocks, Monaco, "Lucida Console", monospace;
+    font-size: 16px;
+  }
+
+  .kenny-pixel {
+    font-family: kenny-pixel, Monaco, "Lucida Console", monospace;
+    font-size: 32px;
+  }
+
+  .kenny-pixel-square {
+    font-family: kenny-pixel-square, Monaco, "Lucida Console", monospace;
+    font-size: 16px;
+  }
+
+  .kenny-mini {
+    font-family: kenny-mini, Monaco, "Lucida Console", monospace;
+    font-size: 16px;
+  }
+}
+
+/** BUTTON SHOWCASE **/
+.button-showcase {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+}

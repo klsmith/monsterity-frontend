@@ -1,0 +1,117 @@
+@import '../../../shared/colors';
+
+:host {
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  color: $dark;
+  font-family: unset;
+  font-size: 16px;
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 4px;
+  padding: 2px 4px;
+  margin: 0;
+
+  // Red Theme
+  &.red {
+    background: $red;
+    border-color: $brown;
+
+    &:active {
+      background-color: $brown;
+    }
+  }
+
+  // Green Theme
+  &.green {
+    background: $green_light;
+    border-color: $green_dark;
+
+    &:active {
+      background-color: $green_dark;
+    }
+  }
+
+  // Light Blue Theme
+  &.blue_light {
+    background: $blue_light;
+    border-color: $blue_mid;
+
+    &:active {
+      background-color: $blue_mid;
+    }
+  }
+
+  // Blue Theme
+  &.blue {
+    background: $blue_mid;
+    border-color: $blue_dark;
+
+    &:active {
+      background-color: $blue_dark;
+    }
+  }
+
+  // White Theme
+  &.white {
+    background: $white;
+    border-color: $gray;
+
+    &:active {
+      background-color: $gray;
+    }
+  }
+
+  // Gray Theme
+  &.gray {
+    background: $gray;
+    border-color: $dark;
+
+    &:active {
+      background-color: $dark;
+    }
+  }
+
+  // Yellow Theme
+  &.yellow {
+    background: $yellow;
+    border-color: $orange;
+
+    &:active {
+      background-color: $orange;
+    }
+  }
+
+  // Orange Theme
+  &.orange {
+    background: $orange;
+    border-color: $brown;
+
+    &:active {
+      background-color: $brown;
+    }
+  }
+
+  // Purple Theme
+  &.purple {
+    background: $purple_light;
+    border-color: $purple_dark;
+
+    &:active {
+      background-color: $purple_dark;
+    }
+  }
+
+  // Common Selectors
+  &:hover {
+    border-color: $black;
+    outline: 2px solid $white;
+  }
+
+  &:active {
+    color: $white;
+  }
+}
