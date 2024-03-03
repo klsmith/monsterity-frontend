@@ -1,12 +1,9 @@
-import { Component } from '@angular/core';
-import {ButtonComponent} from "../../components/button/button.component";
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'monsterity-home',
   standalone: true,
-    imports: [
-        ButtonComponent
-    ],
+  imports: [],
   templateUrl: './home-page.component.html',
   styleUrl: './home-page.component.scss'
 })

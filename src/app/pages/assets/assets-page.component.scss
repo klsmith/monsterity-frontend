@@ -26,8 +26,8 @@
 
   div {
     outline: 1px solid $white;
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
   }
 
   .black {
@@ -99,22 +99,22 @@
 .font-showcase {
   .kenny-blocks {
     font-family: kenny-blocks, Monaco, "Lucida Console", monospace;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .kenny-pixel {
     font-family: kenny-pixel, Monaco, "Lucida Console", monospace;
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .kenny-pixel-square {
     font-family: kenny-pixel-square, Monaco, "Lucida Console", monospace;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .kenny-mini {
     font-family: kenny-mini, Monaco, "Lucida Console", monospace;
-    font-size: 16px;
+    font-size: 1rem;
   }
 }
 

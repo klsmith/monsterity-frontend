@@ -1,14 +1,9 @@
-@import '../../../shared/colors';
-
-:host {
-  padding: 0;
-  margin: 0;
-}
+@import "colors";
 
 button {
   color: $dark;
   font-family: unset;
-  font-size: 16px;
+  font-size: 1rem;
   border-width: 2px;
   border-style: outset;
   border-radius: 4px;

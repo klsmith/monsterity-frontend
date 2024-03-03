@@ -36,8 +36,8 @@ header {
     display: inline;
     font-family: kenny-blocks, Monaco, "Lucida Console", monospace;
     font-weight: normal;
-    font-size: 32px;
-    line-height: 32px;
+    font-size: 2rem;
+    line-height: 2rem;
     margin: 0;
   }
 
@@ -50,7 +50,7 @@ header {
     align-items: end;
     a {
       font-family: kenny-pixel-square, Monaco, "Lucida Console", monospace;
-      font-size: 16px;
+      font-size: 1rem;
     }
   }
 }
@@ -82,7 +82,7 @@ main {
 
 footer {
   font-family: kenny-pixel, Monaco, "Lucida Console", monospace;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 16px 32px;
   border: 4px groove $gray;
   flex-shrink: 1;
